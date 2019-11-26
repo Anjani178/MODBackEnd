@@ -1,0 +1,8 @@
+D:\AdoNet\CalculateLib\CalculateLib\bin\Debug\netcoreapp3.0\CalculateLib.deps.json
+D:\AdoNet\CalculateLib\CalculateLib\bin\Debug\netcoreapp3.0\CalculateLib.dll
+D:\AdoNet\CalculateLib\CalculateLib\bin\Debug\netcoreapp3.0\CalculateLib.pdb
+D:\AdoNet\CalculateLib\CalculateLib\obj\Debug\netcoreapp3.0\CalculateLib.csprojAssemblyReference.cache
+D:\AdoNet\CalculateLib\CalculateLib\obj\Debug\netcoreapp3.0\CalculateLib.AssemblyInfoInputs.cache
+D:\AdoNet\CalculateLib\CalculateLib\obj\Debug\netcoreapp3.0\CalculateLib.AssemblyInfo.cs
+D:\AdoNet\CalculateLib\CalculateLib\obj\Debug\netcoreapp3.0\CalculateLib.dll
+D:\AdoNet\CalculateLib\CalculateLib\obj\Debug\netcoreapp3.0\CalculateLib.pdb

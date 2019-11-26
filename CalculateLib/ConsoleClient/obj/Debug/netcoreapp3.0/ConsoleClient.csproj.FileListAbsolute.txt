@@ -1,0 +1,14 @@
+D:\AdoNet\CalculateLib\ConsoleClient\bin\Debug\netcoreapp3.0\ConsoleClient.exe
+D:\AdoNet\CalculateLib\ConsoleClient\bin\Debug\netcoreapp3.0\ConsoleClient.deps.json
+D:\AdoNet\CalculateLib\ConsoleClient\bin\Debug\netcoreapp3.0\ConsoleClient.runtimeconfig.json
+D:\AdoNet\CalculateLib\ConsoleClient\bin\Debug\netcoreapp3.0\ConsoleClient.runtimeconfig.dev.json
+D:\AdoNet\CalculateLib\ConsoleClient\bin\Debug\netcoreapp3.0\ConsoleClient.dll
+D:\AdoNet\CalculateLib\ConsoleClient\bin\Debug\netcoreapp3.0\ConsoleClient.pdb
+D:\AdoNet\CalculateLib\ConsoleClient\obj\Debug\netcoreapp3.0\ConsoleClient.csprojAssemblyReference.cache
+D:\AdoNet\CalculateLib\ConsoleClient\obj\Debug\netcoreapp3.0\ConsoleClient.AssemblyInfoInputs.cache
+D:\AdoNet\CalculateLib\ConsoleClient\obj\Debug\netcoreapp3.0\ConsoleClient.AssemblyInfo.cs
+D:\AdoNet\CalculateLib\ConsoleClient\obj\Debug\netcoreapp3.0\ConsoleClient.dll
+D:\AdoNet\CalculateLib\ConsoleClient\obj\Debug\netcoreapp3.0\ConsoleClient.pdb
+D:\AdoNet\CalculateLib\ConsoleClient\bin\Debug\netcoreapp3.0\CalculateLib.dll
+D:\AdoNet\CalculateLib\ConsoleClient\bin\Debug\netcoreapp3.0\CalculateLib.pdb
+D:\AdoNet\CalculateLib\ConsoleClient\obj\Debug\netcoreapp3.0\ConsoleClient.csproj.CopyComplete

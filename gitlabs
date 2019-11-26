@@ -1,0 +1,81 @@
+git branch -a
+* master
+  remotes/origin/master
+
+Dell@DESKTOP-MFOQ4PM MINGW64 ~/source/EF_Anjani (master)
+$ git remote add anjani
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Dell@DESKTOP-MFOQ4PM MINGW64 ~/source/EF_Anjani (master)
+$ git remote add origin anjani
+fatal: remote origin already exists.
+
+Dell@DESKTOP-MFOQ4PM MINGW64 ~/source/EF_Anjani (master)
+$ git branch EF_Anjani anjani
+fatal: Not a valid object name: 'anjani'.
+
+Dell@DESKTOP-MFOQ4PM MINGW64 ~/source/EF_Anjani (master)
+$ git branch anjani
+
+Dell@DESKTOP-MFOQ4PM MINGW64 ~/source/EF_Anjani (master)
+$ git checkout -b anjani
+fatal: A branch named 'anjani' already exists.
+
+Dell@DESKTOP-MFOQ4PM MINGW64 ~/source/EF_Anjani (master)
+$ git checkout -b
+error: switch `b' requires a value
+
+Dell@DESKTOP-MFOQ4PM MINGW64 ~/source/EF_Anjani (master)
+$ git checkout -b anjani
+fatal: A branch named 'anjani' already exists.
+
+Dell@DESKTOP-MFOQ4PM MINGW64 ~/source/EF_Anjani (master)
+$ git add .
+warning: LF will be replaced by CRLF in EF_Anjani/EF_Anjani.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in EF_Anjani/EF_Anjani.pub.
+The file will have its original line endings in your working directory
+
+Dell@DESKTOP-MFOQ4PM MINGW64 ~/source/EF_Anjani (master)
+$ git commit -m "by Anjani"
+[master 8661b80] by Anjani
+ 2 files changed, 8 insertions(+)
+ create mode 100644 EF_Anjani/EF_Anjani
+ create mode 100644 EF_Anjani/EF_Anjani.pub
+
+Dell@DESKTOP-MFOQ4PM MINGW64 ~/source/EF_Anjani (master)
+$ git push -u origin master
+To https://gitlab.com/cts.core/activity.net.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://gitlab.com/cts.core/activity.net.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Dell@DESKTOP-MFOQ4PM MINGW64 ~/source/EF_Anjani (master)
+$ git push -u origin anjani
+Enumerating objects: 146, done.
+Counting objects: 100% (146/146), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (122/122), done.
+Writing objects: 100% (146/146), 3.65 MiB | 55.00 KiB/s, done.
+Total 146 (delta 24), reused 0 (delta 0)
+remote: Resolving deltas: 100% (24/24), done.
+remote:
+remote: To create a merge request for anjani, visit:
+remote:   https://gitlab.com/cts.core/activity.net/merge_requests/new?merge_request%5Bsource_branch%5D=anjani
+remote:
+To https://gitlab.com/cts.core/activity.net.git
+ * [new branch]      anjani -> anjani
+Branch 'anjani' set up to track remote branch 'anjani' from 'origin'.

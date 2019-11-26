@@ -1,0 +1,81 @@
+{
+    "ReRoutes": [
+        // Technolgoy
+        {
+            "DownstreamPathTemplate": "/api/Skill/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 1969
+                }
+            ],
+            "UpstreamPathTemplate": "/Skill/{catchAll}"
+
+        },
+        {
+            "DownstreamPathTemplate": "/api/Training/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 1968
+                }
+            ],
+            "UpstreamPathTemplate": "/Training/{catchAll}"
+
+        },
+        {
+            "DownstreamPathTemplate": "/api/Login/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 1971
+                }
+            ],
+            "UpstreamPathTemplate": "/Login/{catchAll}"
+
+        },
+        {
+            "DownstreamPathTemplate": "/api/User/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 1964
+                }
+            ],
+            "UpstreamPathTemplate": "/User/{catchAll}"
+
+        },
+        {
+            "DownstreamPathTemplate": "/api/Mentor/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 1964
+                }
+            ],
+            "UpstreamPathTemplate": "/Mentor/{catchAll}"
+
+        },
+        {
+            "DownstreamPathTemplate": "/api/Payment/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 1970
+                }
+            ],
+            "UpstreamPathTemplate": "/Payment/{catchAll}",
+            "UpstreamHttpMethod": [ "Get" ]
+        }
+
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:10512"
+    }
+}

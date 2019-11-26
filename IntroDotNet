@@ -1,0 +1,36 @@
+Ado.Net
+	|
+  |---------------------|
+  Connected 			Disconnected
+  
+  |_> win
+  |_> web |-----------|----------|
+		  Asp.net     MVC        Web API
+		  |
+		  |
+		  --->Angular+ Jquery +AJAX +API
+		  
+CORE
+-> authen & authorization
+-> web api
+-> WCF
+-> MVC
+-> Entity framework 
+	|_> code first
+	|_> DB First
+	|_> Mix
+-> Jenkins
+-> GITHUB
+-> Docker
+-> Micro Service
+	
+Data Transfer Lang
+->XML
+->BSOn
+->json
+->YAML
+
+Web Api comes under SOA
+|_> TCP -> HTTP
+|_> Socket -> Remote ->WCF
+
